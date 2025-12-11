@@ -1,73 +1,137 @@
-# Welcome to your Lovable project
+# Khairul Azizi | Web Developer Portfolio
 
-## Project info
+Welcome to my personal portfolio website! This is a modern, responsive web application showcasing my skills, projects, and experience as a web developer.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🎯 About This Portfolio
 
-## How can I edit this code?
+This portfolio website serves as a digital resume and showcase of my work as a Diploma in Information Technology student and aspiring web developer. It features:
 
-There are several ways of editing your application.
+- Professional introduction and background
+- Skills and expertise overview
+- Project showcase with detailed descriptions
+- Contact information and social links
 
-**Use Lovable**
+## ✨ Key Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- **Responsive Design**: Works seamlessly across mobile, tablet, and desktop devices
+- **Modern UI**: Clean, contemporary design with smooth animations and transitions
+- **Dark/Light Mode**: Toggle between themes based on user preference
+- **Interactive Elements**: Engaging animations and interactive components
+- **Project Showcase**: Detailed view of my development projects
+- **Contact Form**: Easy way to get in touch with me
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Technology Stack
 
-**Use your preferred IDE**
+### Frontend
+- **React 18** - JavaScript library for building user interfaces
+- **TypeScript** - Typed superset of JavaScript
+- **Vite** - Fast build tool and development server
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - Reusable component library
+- **React Router** - Declarative routing for React
+- **Lucide Icons** - Beautiful SVG icon library
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Development Tools
+- **ESLint** - Code linting utility
+- **Prettier** - Code formatter
+- **PostCSS** - CSS processing platform
+- **Autoprefixer** - Vendor prefixing for CSS
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📁 Project Structure
 
-Follow these steps:
+```
+src/
+├── components/           # Reusable UI components
+│   ├── auth/            # Authentication components
+│   ├── calculator/      # Loan calculator components
+│   └── ui/              # Shared UI components
+├── contexts/            # React context providers
+├── hooks/               # Custom React hooks
+├── lib/                 # Utility functions
+├── pages/               # Page components
+├── App.tsx             # Main application component
+└── main.tsx            # Entry point
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## ▶️ Getting Started
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Prerequisites
+- Node.js (version 16 or higher)
+- npm or yarn
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Installation
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+1. Clone the repository:
+```bash
+git clone <repository-url>
+```
+
+2. Navigate to the project directory:
+```bash
+cd khairul-azizi-portfolio
+```
+
+3. Install dependencies:
+```bash
+npm install
+```
+
+4. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:8080`.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🧪 Development
 
-**Use GitHub Codespaces**
+### Available Scripts
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+- `npm run type-check` - Run TypeScript type checking
 
-## What technologies are used for this project?
+## 🌐 Pages
 
-This project is built with:
+1. **Home** - Introduction and overview
+2. **About** - Personal background and skills
+3. **Skills** - Technical expertise and proficiencies
+4. **Projects** - Showcase of development work
+5. **Contact** - Ways to get in touch
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🎨 Design Principles
 
-## How can I deploy this project?
+- **Clean & Minimal**: Focus on content and readability
+- **Responsive**: Works on all device sizes
+- **Accessible**: Follows WCAG guidelines for accessibility
+- **Performance**: Optimized for fast loading and smooth interactions
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 🚀 Deployment
 
-## Can I connect a custom domain to my Lovable project?
+To deploy the application:
 
-Yes, you can!
+1. Build the project:
+```bash
+npm run build
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+2. Deploy the `dist/` folder to your hosting provider of choice.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📞 Contact
+
+For inquiries, you can reach me through:
+
+- Email: [Your Email]
+- LinkedIn: [Your LinkedIn Profile]
+- GitHub: [Your GitHub Profile]
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgments
+
+- Thanks to all the open-source projects that made this portfolio possible
+- Special thanks to the React and Tailwind CSS communities
