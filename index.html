@@ -18,7 +18,44 @@
     <meta name="twitter:description" content="I build clean, functional, and user-friendly web applications." />
     <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%238b5cf6'%3E%3Crect width='16' height='16' rx='8' ry='8'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='10' fill='white'%3EKA%3C/text%3E%3C/svg%3E" />
     <link rel="canonical" href="https://khairulazizi.dev" />
+    
+    <script>
+      // Create a canvas to generate a favicon with "KA"
+      function createKAFavicon() {
+        const canvas = document.createElement('canvas');
+        canvas.width = 32;
+        canvas.height = 32;
+        const ctx = canvas.getContext('2d');
+        
+        // Fill background with purple (matching the theme)
+        ctx.fillStyle = '#8b5cf6'; // purple color
+        ctx.fillRect(0, 0, 32, 32);
+        
+        // Add "KA" text in white
+        ctx.font = 'bold 20px Arial';
+        ctx.fillStyle = 'white';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillText('KA', 16, 16);
+        
+        // Create a new link element for the favicon
+        const link = document.createElement('link');
+        link.rel = 'icon';
+        link.href = canvas.toDataURL('image/x-icon');
+        
+        // Add it to the head
+        document.head.appendChild(link);
+      }
+      
+      // Create the favicon when the page loads
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', createKAFavicon);
+      } else {
+        createKAFavicon();
+      }
+    </script>
   </head>
 
   <body>
